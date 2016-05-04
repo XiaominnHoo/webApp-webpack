@@ -16,9 +16,30 @@
     </header>
     <main>
       <h2>This is Charge Page</h2>
+      <table>
+        <thead>
+        <tr>
+          <th>项目</th>
+          <th>日期时间</th>
+          <th>详述</th>
+        </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
     </main>
   </div>
+  <script type="text/template" id="todoList">
+    {{ _.each(content, function (todo) { }}
+    <tr>
+      <td class="title">{{= todo.title }}</td>
+      <td class="date-time">{{= todo.datetime }}</td>
+      <td class="detail">{{= todo.detail }}</td>
+    </tr>
+    {{ }); }}
+  </script>
   <script type="text/javascript" src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://cdn.bootcss.com/underscore.js/1.8.3/underscore-min.js"></script>
   <script type="text/javascript" src="/public/common.js"></script>
 <script type="text/javascript" src="/public/charge.js"></script>
 </body>

@@ -59,6 +59,7 @@ module.exports = {
 
   externals: {
     "jquery": "jQuery",
+    "_": "underscore"
   },
 
   plugins: [
