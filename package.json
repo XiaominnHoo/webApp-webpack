@@ -1,0 +1,32 @@
+{
+  "name": "terminal-webpack-trying",
+  "version": "1.0.0",
+  "description": "build web application by webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --progress --inline --hot",
+    "build": "webpack --progress --profile --colors --config webpack.production.config.js"
+  },
+  "keywords": [
+    "web",
+    "application",
+    "webpack",
+    "sass",
+    "babel",
+    "es6"
+  ],
+  "author": "xiaominhoo",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.8.0",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.6.0",
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "sass-loader": "^3.2.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.0",
+    "webpack-dev-server": "^1.14.1"
+  }
+}

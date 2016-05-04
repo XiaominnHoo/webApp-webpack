@@ -1,1 +1,5 @@
 node_modules
+*.class
+*.classpath
+logs
+.idea
