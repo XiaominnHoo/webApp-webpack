@@ -2,10 +2,11 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Charge</title>
-  <link rel="stylesheet" href="/public/common.css">
-  <link rel="stylesheet" href="/public/charge.css">
-</head>
+  <title>Booking</title>
+  <link rel="stylesheet" href="/public/css/common.css">
+  <link rel="stylesheet" href="/public/css/booking.css">
+</he.idea/
+  ad>
 <body>
   <div class="container">
     <header class="header">
@@ -15,14 +16,14 @@
       </div>
     </header>
     <main>
-      <h2>This is Charge Page</h2>
+      <h2>This is Booking Page</h2>
       <table>
         <thead>
-        <tr>
-          <th>项目</th>
-          <th>日期时间</th>
-          <th>详述</th>
-        </tr>
+          <tr>
+            <th>项目</th>
+            <th>日期时间</th>
+            <th>详述</th>
+          </tr>
         </thead>
         <tbody>
         </tbody>
@@ -31,16 +32,16 @@
   </div>
   <script type="text/template" id="todoList">
     {{ _.each(content, function (todo) { }}
-    <tr>
-      <td class="title">{{= todo.title }}</td>
-      <td class="date-time">{{= todo.datetime }}</td>
-      <td class="detail">{{= todo.detail }}</td>
-    </tr>
+      <tr>
+        <td class="title">{{= todo.title }}</td>
+        <td class="date-time">{{= todo.datetime }}</td>
+        <td class="detail">{{= todo.detail }}</td>
+      </tr>
     {{ }); }}
   </script>
   <script type="text/javascript" src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
   <script src="http://cdn.bootcss.com/underscore.js/1.8.3/underscore-min.js"></script>
-  <script type="text/javascript" src="/public/common.js"></script>
-<script type="text/javascript" src="/public/charge.js"></script>
+  <script type="text/javascript" src="/public/js/common.js"></script>
+  <script type="text/javascript" src="/public/js/booking.js"></script>
 </body>
 </html>

@@ -2,7 +2,7 @@
  * Created by huxiaomin on 16/5/4.
  */
 
-import "../../../sass/components/search.scss";
+import "cssComp/_search";
 
 _.templateSettings = {
   interpolate: /\{\{=(.+?)\}\}/g,

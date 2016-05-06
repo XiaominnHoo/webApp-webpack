@@ -1,0 +1,1 @@
+webpackJsonp([2],{0:function(e,t,n){"use strict";function u(e){return e&&e.__esModule?e:{"default":e}}n(13);var o=n(5),a=u(o);new a["default"]({el:$("header"),templateId:"#todoList"})},13:function(e,t){}});

@@ -2,8 +2,8 @@
  * Created by huxiaomin on 16/5/4.
  */
 
-import '../../../sass/views/charge.scss';
-import Header from '../../../js/modules/header/header.js';
+import 'cssPage/booking';
+import Header from 'jsModu/header';
 
 var header = new Header({
   el: $('header'),

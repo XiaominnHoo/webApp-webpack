@@ -2,8 +2,8 @@
  * Created by huxiaomin on 16/5/4.
  */
 
-import "../../../sass/modules/header.scss";
-import Search from "../../../js/components/search/search.js";
+import "cssModu/_header";
+import Search from "jsCompo/search";
 
 export default class Header {
   constructor ( {el, templateId} ) {
